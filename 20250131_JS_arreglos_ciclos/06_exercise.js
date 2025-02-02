@@ -6,6 +6,11 @@
 Entrada [3, 6, 12, 5, 100, 1 ]
 Salida [1, 3, 5, 6, 12, 100] */
 
+/**
+ * En esta función se realiza el algoritmo de burbuja y se ordenan los elementos numéricos de un arreglo de forma ascendente. 
+ * @param {object} arreglo 
+ * @returns {object} arreglo
+ */
 const algoritmoBurbuja = arreglo => {
   for( let i = 0; i < arreglo.length; i++ ) {
     for ( let j = 0; j < arreglo.length - i - 1; j++ ){
